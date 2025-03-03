@@ -6,7 +6,7 @@ export default function Form() {
   return (
     <div>
       <TodoForm todos={todos} setTodos={setTodos} />
-      <TodoList todos={todos} />
+      <TodoList todos={todos} setTodos={setTodos} />
     </div>
   );
 }
